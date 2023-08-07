@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: #AED8CC;
+    margin:50px;
+}
+h1{
+    font-size:5rem;
+    font-family:"Oswald",sans-serif;
+    color:#461959;
+}
+p{
+    font-size: 1.5rem;
+    font-family:"Edu SA Beginner";
+    color:#7A316F;
+}
+.main{
+    margin:10px;
+    padding:10px;
+    font-size: larger;
+    text-decoration: none;
+    color:#7A316F;
+    display:inline-block
+
+}
+.aboutme{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    font-size: larger;
+    text-decoration: none;
+    color:#7A316F;
+}
+.github{
+    color:#7A316F;
+    margin:10px;
+    padding:10px;
+    text-decoration: none;
+    font-size:larger;
+    display:inline-block;
+}
+.links{
+    display: inline-block;
+    top:10px;
+    position:absolute;
+    left:10px;
+}
+@media (any-hover:hover){
+    a:hover{
+        background-color: rgb(205, 102, 136,0.3);
+    }
+}
