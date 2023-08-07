@@ -1,7 +1,6 @@
 
     body{
     text-align: center;
-    margin:50px;
     background-color: #FDE2F3;
 }
 
@@ -17,6 +16,7 @@ p{
     color:#917FB3;
     font-size: 1.5rem;
     font-weight: 100;
+    margin:50px;
      }
 .main{
     color:#917FB3;
@@ -51,6 +51,7 @@ p{
     position:absolute;
     top:10px;
     left:10px;
+    margin-left:20px;
 }
 
 
@@ -59,4 +60,15 @@ p{
         background-color:rgb(229, 190, 236,0.3);
         
     }
+}
+
+.spacer{
+    aspect-ratio: 900/600;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url(../layered-waves-haikei.svg);
 }
